@@ -13,6 +13,8 @@ from .pokerdvs import POKERDVS
 from .s_mnist import SMNIST
 from .tum_vie import TUMVIE
 from .visual_place_recognition import VPR
+from .ucf101dvs import UCF101DVS
+from .hmdb_dvs import HMDBDVS
 
 __all__ = [
     "ASLDVS",
@@ -31,4 +33,6 @@ __all__ = [
     "SSC",
     "TUMVIE",
     "VPR",
+    'UCF101DVS',
+    'HMDBDVS'
 ]
